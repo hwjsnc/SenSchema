@@ -35,7 +35,7 @@ seq:
     doc: |
 {doc}
   - id: data
-    type: u2
+    type: u4
     repeat: expr
     repeat-expr: 3
 enums:
