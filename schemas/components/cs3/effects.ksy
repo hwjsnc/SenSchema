@@ -40,7 +40,7 @@ seq:
       They work when applied to magic or consumables (in battle).
       When applied to accessories, they affect the target of attacks.
   - id: data
-    type: u2
+    type: u4
     repeat: expr
     repeat-expr: 3
 enums:
