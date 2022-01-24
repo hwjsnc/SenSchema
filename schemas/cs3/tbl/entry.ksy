@@ -4,7 +4,9 @@ meta:
   encoding: UTF-8
   imports:
     - base_list
+    - comp_help_data
     - item
+    - item_help_data
     - item_q
     - master_quartz_base
     - master_quartz_data
@@ -27,7 +29,9 @@ seq:
       switch-on: header_name
       cases:
         '"BaseList"': base_list
+        '"CompHelpData"': comp_help_data
         '"item"': item
+        '"ItemHelpData"': item_help_data
         '"item_q"': item_q
         '"MasterQuartzBase"': master_quartz_base
         '"MasterQuartzData"': master_quartz_data
