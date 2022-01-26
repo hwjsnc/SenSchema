@@ -19,6 +19,7 @@ meta:
     - qs_mons
     - slot_cost
     - slot_ep
+    - status
 seq:
   - id: header_name
     type: strz
@@ -44,6 +45,7 @@ seq:
         '"QSMons"': qs_mons
         "'SlotCost'": slot_cost
         "'SlotEp'": slot_ep
+        "'status'": status
         _: generic
 types:
   generic:
