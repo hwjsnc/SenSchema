@@ -8,7 +8,7 @@ doc: |
 
   Present in t_status.tbl.
 seq:
-  - script:
+  - id: script
     type: strz
     doc: |
       Enemy script, references status in t_mons.tbl.
