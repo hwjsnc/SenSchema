@@ -20,6 +20,7 @@ meta:
     - slot_cost
     - slot_ep
     - status
+    - status_p
 seq:
   - id: header_name
     type: strz
@@ -46,6 +47,7 @@ seq:
         "'SlotCost'": slot_cost
         "'SlotEp'": slot_ep
         "'status'": status
+        "'status_p'": status_p
         _: generic
 types:
   generic:
