@@ -2,6 +2,14 @@ meta:
   id: status
   endian: le
   encoding: UTF-8
+doc: |
+  Monster status.
+  Includes stat bases and growths; elemental, status, and unbalance
+  efficacies; sepith and item drops; and more.
+
+  Extremely similar to the player character status table (status_p).
+
+  Present in t_mons.tbl
 seq:
   - id: script
     type: strz
