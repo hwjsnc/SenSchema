@@ -8,6 +8,8 @@ meta:
     - item
     - item_help_data
     - item_q
+    - char_revise
+    - game_difficulty
     - master_quartz_base
     - master_quartz_data
     - master_quartz_dummy
@@ -21,6 +23,7 @@ meta:
     - slot_ep
     - status
     - status_p
+    - status_revise
 seq:
   - id: header_name
     type: strz
@@ -35,6 +38,8 @@ seq:
         '"item"': item
         '"ItemHelpData"': item_help_data
         '"item_q"': item_q
+        '"char_revise"': char_revise
+        '"game_difficulty"': game_difficulty
         '"MasterQuartzBase"': master_quartz_base
         '"MasterQuartzData"': master_quartz_data
         '"MasterQuartzDummy"': master_quartz_dummy
@@ -48,6 +53,7 @@ seq:
         "'SlotEp'": slot_ep
         "'status'": status
         "'status_p'": status_p
+        "'status_revise'": status_revise
         _: generic
 types:
   generic:
