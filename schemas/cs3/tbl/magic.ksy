@@ -5,9 +5,10 @@ meta:
   imports:
     - /components/cs3/character
     - /components/cs3/magic_category
-    - /components/cs3/effect
-    - /components/common/element
-    - /components/common/target_types
+    - /components/cs3/magic_type
+    - /components/cs3/effects
+    #- /components/common/element
+    - /components/cs3/target_type
 seq:
   - id: magic_id
     type: u2

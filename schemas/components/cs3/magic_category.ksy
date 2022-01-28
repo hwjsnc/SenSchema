@@ -1,5 +1,5 @@
-type:
-- id: magic_type
+meta:
+  id: magic_category
   endian: le
 seq:
   - id: category_id
