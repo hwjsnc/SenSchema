@@ -4,6 +4,8 @@ meta:
   encoding: UTF-8
   imports:
     - base_list
+    - magic
+    - magicbo
     - master_quartz_base
     - master_quartz_data
     - master_quartz_dummy
@@ -15,6 +17,11 @@ meta:
     - qs_mons
     - slot_cost
     - slot_ep
+    - t_mstqrt/master_quartz_base
+    - t_mstqrt/master_quartz_data
+    - t_mstqrt/master_quartz_dummy
+    - t_mstqrt/master_quartz_memo
+    - t_mstqrt/master_quartz_status
 seq:
   - id: header_name
     type: strz
@@ -25,6 +32,9 @@ seq:
       switch-on: header_name
       cases:
         '"BaseList"': base_list
+        '"magic"': magic
+        '"magicbo"': magicbo
+        '"MasterQuartzStatus"': master_quartz_status
         '"MasterQuartzBase"': master_quartz_base
         '"MasterQuartzData"': master_quartz_data
         '"MasterQuartzDummy"': master_quartz_dummy
