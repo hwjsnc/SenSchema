@@ -10,6 +10,8 @@ meta:
     - item_q
     - char_revise
     - game_difficulty
+    - magic
+    - magicbo
     - master_quartz_base
     - master_quartz_data
     - master_quartz_dummy
@@ -40,6 +42,8 @@ seq:
         '"item_q"': item_q
         '"char_revise"': char_revise
         '"game_difficulty"': game_difficulty
+        '"magic"': magic
+        '"magicbo"': magicbo
         '"MasterQuartzBase"': master_quartz_base
         '"MasterQuartzData"': master_quartz_data
         '"MasterQuartzDummy"': master_quartz_dummy
