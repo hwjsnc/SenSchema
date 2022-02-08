@@ -155,36 +155,38 @@ seq:
   - id: strike_efficacy
     type: u2
 
-  - id: earth_sepith
+  - id: earth_sepith_base
     type: u1
-  - id: water_sepith
+  - id: water_sepith_base
     type: u1
-  - id: fire_sepith
+  - id: fire_sepith_base
     type: u1
-  - id: wind_sepith
+  - id: wind_sepith_base
     type: u1
-  - id: time_sepith
+  - id: time_sepith_base
     type: u1
-  - id: space_sepith
+  - id: space_sepith_base
     type: u1
-  - id: mirage_sepith
+  - id: mirage_sepith_base
+    type: u1
+  - id: sepith_mass_base
     type: u1
 
-  - id: unknown_float_8
+  - id: earth_sepith_growth
     type: f4
-  - id: unknown_float_9
+  - id: water_sepith_growth
     type: f4
-  - id: unknown_float_10
+  - id: fire_sepith_growth
     type: f4
-  - id: unknown_float_11
+  - id: wind_sepith_growth
     type: f4
-  - id: unknown_float_12
+  - id: time_sepith_growth
     type: f4
-  - id: unknown_float_13
+  - id: space_sepith_growth
     type: f4
-  - id: unknown_float_14
+  - id: mirage_sepith_growth
     type: f4
-  - id: unknown_float_15
+  - id: sepith_mass_growth
     type: f4
 
   - id: drop_id_1
@@ -196,9 +198,9 @@ seq:
   - id: drop_chance_2
     type: u1
 
-  - id: unknown_float_16
+  - id: unknown_float_8
     type: f4
-  - id: unknown_float_17
+  - id: unknown_float_9
     type: f4
 
   - id: flags
