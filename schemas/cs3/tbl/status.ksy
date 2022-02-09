@@ -18,6 +18,15 @@ seq:
   - id: model
     type: strz
 
+  - id: model_scale
+    type: f4
+  - id: camera_pivot_height
+    type: f4
+    doc: |
+      Height of the camera pivot above ground when it's centered on the character.
+      Player characters only.
+  - id: hitbox_size
+    type: f4
   - id: unknown_float_1
     type: f4
   - id: unknown_float_2
@@ -25,12 +34,6 @@ seq:
   - id: unknown_float_3
     type: f4
   - id: unknown_float_4
-    type: f4
-  - id: unknown_float_5
-    type: f4
-  - id: unknown_float_6
-    type: f4
-  - id: unknown_float_7
     type: f4
   - id: unknown_short_1
     type: u2
@@ -198,10 +201,14 @@ seq:
   - id: drop_chance_2
     type: u1
 
-  - id: unknown_float_8
+  - id: unknown_float_5
     type: f4
-  - id: unknown_float_9
+    doc: |
+      Related to random variation of monster stat and model size.
+  - id: unknown_float_6
     type: f4
+    doc: |
+      Related to random variation of monster stat and model size.
 
   - id: flags
     type: strz
