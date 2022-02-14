@@ -53,11 +53,11 @@ seq:
         '"QuartzCost"': quartz_cost
         '"QSChapter"': qs_chapter
         '"QSMons"': qs_mons
-        "'SlotCost'": slot_cost
-        "'SlotEp'": slot_ep
-        "'status'": status
-        "'status_p'": status_p
-        "'status_revise'": status_revise
+        '"SlotCost"': slot_cost
+        '"SlotEp"': slot_ep
+        '"status"': status
+        '"status_p"': status_p
+        '"status_revise"': status_revise
         _: generic
 types:
   generic:
