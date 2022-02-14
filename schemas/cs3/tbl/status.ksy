@@ -126,6 +126,8 @@ seq:
     type: u1
   - id: blnd_efficacy
     type: u1
+  - id: slp_efficacy
+    type: u1
   - id: burn_efficacy
     type: u1
   - id: frz_efficacy
