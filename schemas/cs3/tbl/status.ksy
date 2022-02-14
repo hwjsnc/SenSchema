@@ -42,6 +42,8 @@ seq:
 
   - id: is_female
     type: u1
+    doc: |
+      Determines availability of gender-restricted items for player characters.
   - id: level
     type: u1
 
