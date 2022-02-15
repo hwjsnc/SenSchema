@@ -10,6 +10,7 @@ meta:
     - item_q
     - char_revise
     - game_difficulty
+    - hkitugi_lst
     - magic
     - magicbo
     - master_quartz_base
@@ -42,6 +43,7 @@ seq:
         '"item_q"': item_q
         '"char_revise"': char_revise
         '"game_difficulty"': game_difficulty
+        '"hkitugi_lst"': hkitugi_lst
         '"magic"': magic
         '"magicbo"': magicbo
         '"MasterQuartzBase"': master_quartz_base
